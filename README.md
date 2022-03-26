@@ -5,7 +5,8 @@ Basic java Algoritms that can be used to be faster
     - Int
     - Double
     - String
-                                                             ---  NOT ALREADY DONE!  ---
+                                                            
+                                                            ---  NOT ALREADY DONE!  ---
   - Sort:
     - BubbleSort
     - CountingSort

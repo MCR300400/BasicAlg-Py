@@ -35,6 +35,24 @@ def read_file(path):
         f = open(path,'w')
         f.close()
 
-new_file(1)
-write_file("File1.txt")
-read_file('File123.txt')
+def search_in_file(path):
+    try:
+        f = open(path,'r')
+        toS = input("what phrase should I look for?\n").lower()
+        strings = f.read().lower().splitlines()
+        lines = [False for i in range(len(strings))]
+        print(lines)
+        print(toS)
+        for i in range(len(strings)):
+            if strings[i] == toS:
+                lines[i] = True
+        for i in range(len(strings)):
+            print('Line ' + str(i)+': ' + str(lines[i]))
+                
+
+    except:
+        return 'FILE DOES NOT EXIST!'
+
+
+
+search_in_file("File1.txt")

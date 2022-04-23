@@ -5,11 +5,10 @@ Basic java Algoritms that can be used to be faster
     - Int
     - Double
     - String
-                                                            
-                                                         ---  NOT ALREADY DONE!  ---
   - Sort:
     - BubbleSort
     - CountingSort
+                                                          ---  NOT ALREADY DONE!  ---
   - Operation_in_File:
     - Search_in_file
     - Read_in_File

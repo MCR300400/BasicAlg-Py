@@ -8,6 +8,7 @@ Basic java Algoritms that can be used to be faster
   - Sort:
     - BubbleSort
     - CountingSort
+    - RadixSort
   - Operation_in_File:
     - Search_in_file
     - Read_in_File
